@@ -1,2 +1,2 @@
 # toga-hacks-next
-Redesigned TogaHacks landing site.
+Redesigned Toga Hacks I landing site.
