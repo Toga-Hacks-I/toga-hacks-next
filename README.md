@@ -1,2 +1,2 @@
-# togahacks-website
+# toga-hacks-next
 Redesigned TogaHacks landing site.
