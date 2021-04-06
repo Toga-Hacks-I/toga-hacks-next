@@ -18,10 +18,10 @@ export default function Hero() {
                 src="/img/logos/logo-white.png"
                 alt="toga hacks logo"
               />
-              <h1 className="mt-4 text-6xl tracking-tight font-bold text-white sm:mt-5 lg:mt-6 lg:text-7xl xl:text-7xl">
-                Toga Hacks I
+              <h1 className="mt-4 text-6xl tracking-tight font-bold text-togahacks-primary-main sm:mt-5 lg:mt-6 lg:text-7xl xl:text-7xl">
+                Toga <span className="text-white">Hacks</span> I
               </h1>
-              <div className="mt-3 text-3xl text-gray-300 sm:mt-5 lg:text-4xl">
+              <div className="mt-3 text-2xl text-gray-300 sm:mt-5 lg:text-3xl">
                 Silicon Valley, CA. Coming soon in 2021.
               </div>
             </div>

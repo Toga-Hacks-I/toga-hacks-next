@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const items = ["About", "Schedule", "FAQ", "Team", "Sponsors", "Sponsor Us"];
+import items from "../../data/navitems";
 
 export default function Navbar() {
   const mobileMenu = useRef(null);
