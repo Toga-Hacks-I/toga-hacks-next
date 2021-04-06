@@ -13,7 +13,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-       
+        togahacks: {
+          primary: {
+            main: "#C92128",
+            light: "#e8383f",
+            dark: "##a80c12"
+          },
+          secondary: {
+            main: "#0E1B4D",
+            gray: "#18224a",
+            grayer: "#222b4d",
+            dark: "#050d2b",
+          },
+        },
       },
     },
   },
