@@ -1,11 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.trans {
+  @apply transition ease-in-out;
+}
+
+.trans-150 {
+  @apply transition ease-in-out duration-150;
+}
+
+.trans-300,
+a,
+button {
+  @apply transition ease-in-out duration-300;
+}
 
 /*-------------------------------*/
 
 body {
   overscroll-behavior: contain;
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.archivo {
+  font-family: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -42,16 +75,16 @@ button.active.focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #9abec9;
+  background: #222b4d;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #174a5a;
+  background: #a80c12;
   transition: all 0.55s ease;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #11343f;
+  background: #e8383f;
 }
