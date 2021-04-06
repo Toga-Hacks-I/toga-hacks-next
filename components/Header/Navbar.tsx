@@ -2,17 +2,12 @@ import React, { useRef, useState, useEffect } from "react";
 import NavItem from "./NavItem";
 import MobileNavItem from "./MobileNavItem";
 
-import { faPlus, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const items = [
-  "About",
-  "Schedule",
-  "FAQ",
-  "Team",
-  "Sponsors",
-  "Sponsor Us",
-];
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+const items = ["About", "Schedule", "FAQ", "Team", "Sponsors", "Sponsor Us"];
 
 export default function Navbar() {
   const mobileMenu = useRef(null);
@@ -32,19 +27,23 @@ export default function Navbar() {
     };
   }, []);
 
-  const [currPath, setCurrPath] = useState("About");
+  const [currItem, setCurrItem] = useState("Hero");
 
   return (
     <nav className="z-50 w-screen bg-white shadow fixed">
       <div className="container">
         <div className="flex justify-between h-16">
-          <a className="flex-shrink-0 flex items-center">
+          <AnchorLink
+            href="#hero"
+            offset="69.69px"
+            className="flex-shrink-0 flex items-center"
+          >
             <img
               className="block h-9 w-auto"
               src="/img/logos/logo.png"
               alt="toga hacks logo"
             />
-          </a>
+          </AnchorLink>
           <div className="flex">
             <div className="-ml-2 mr-2 flex items-center lg:hidden">
               {/* Mobile menu button */}
@@ -67,9 +66,14 @@ export default function Navbar() {
 
             <div className="hidden lg:ml-6 lg:flex lg:space-x-6 xl:space-x-8">
               {items.map((item) => (
-                <NavItem key={item} name={item} active={item == currPath} />
+                <NavItem
+                  key={item}
+                  name={item}
+                  active={item == currItem}
+                  setCurrItem={setCurrItem}
+                />
               ))}
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <a
                     type="button"
@@ -79,10 +83,10 @@ export default function Navbar() {
                       icon={faPlus}
                       className="-ml-1 mr-2 h-3 w-3"
                     />
-                    <span>Register a Club</span>
+                    <span>CTA</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -92,14 +96,19 @@ export default function Navbar() {
       <div className={`${navOpen ? "block" : "hidden"} lg:hidden`}>
         <div ref={mobileMenu} className="pt-2 pb-3 space-y-1 shadow-lg">
           {items.map((item) => (
-            <MobileNavItem key={item} name={item} active={item == currPath} />
+            <MobileNavItem
+              key={item}
+              name={item}
+              active={item == currItem}
+              setCurrItem={setCurrItem}
+            />
           ))}
-          <div className="flex items-center mx-4 py-1">
+          {/* <div className="flex items-center mx-4 py-1">
             <a className="justify-center w-full inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded-md text-white bg-togahacks-primary-main shadow-sm hover:bg-togahacks-primary-darker">
               <FontAwesomeIcon icon={faPlus} className="-ml-1 mr-2 h-3 w-3" />
-              <span>Register a Club</span>
+              <span>CTA</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

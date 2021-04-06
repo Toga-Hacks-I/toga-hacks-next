@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../global/Header/Navbar";
-import Footer from "../global/Footer/Footer";
+import Navbar from "../Header/Navbar";
+import Footer from "../Footer/Footer";
 
 import { GA_TRACKING_ID } from "./gtag";
 
