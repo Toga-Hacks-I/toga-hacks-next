@@ -42,7 +42,7 @@ export default function Page({ title, desc, children }: PageProps) {
         <link
           rel="mask-icon"
           href="/favicon/safari-pinned-tab.svg"
-          color="#279361"
+          color="#C92128"
         />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
         <meta name="msapplication-TileColor" content="#da532c" />

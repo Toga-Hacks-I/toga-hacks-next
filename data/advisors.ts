@@ -20,7 +20,7 @@ const advisors = [
   {
     name: "Rohan Pandey",
     position: "Advisor",
-    github: "https://rpandey.tech/static/cgithub.svg",
+    github: "https://github.com/KhoomeiK",
     linkedin: "https://linkedin.com/in/rohan-p",
   },
 ];
