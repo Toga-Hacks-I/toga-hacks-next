@@ -1,3 +1,3 @@
-const items = ["About", "FAQ", "Team", "Contact"];
+const items = ["About", "FAQ", "Team", "Sponsors", "Contact"];
 
 export default items;

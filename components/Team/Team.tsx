@@ -2,7 +2,7 @@ import React from "react";
 import TeamMember from "./TeamMember";
 
 import teamMembers from "../../data/team";
-import advisors from './../../data/advisors';
+import advisors from "./../../data/advisors";
 
 export default function Team() {
   return (
@@ -18,7 +18,7 @@ export default function Team() {
               lectus sit pretium egestas vel mattis neque.
             </p> */}
           </div>
-          <ul className="mx-auto flex md:flex-wrap align-middle justify-center flex-col md:flex-row lg:max-w-7xl">
+          <ul className="mx-auto flex sm:flex-wrap align-middle justify-center flex-col sm:flex-row lg:max-w-7xl">
             {teamMembers.map((member: any) => {
               let key = member.name.replace(/[\W_]+/g, "-").toLowerCase();
               return (
@@ -41,6 +41,9 @@ export default function Team() {
             })}
           </ul>
         </div>
+        <p className="mt-2 text-gray-600">
+          <i>This section is currently being updated.</i>
+        </p>
 
         <div className="space-y-12 pt-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
