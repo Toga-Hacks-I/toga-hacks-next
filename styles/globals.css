@@ -25,6 +25,15 @@ button {
   @apply transition ease-in-out duration-300;
 }
 
+input {
+  @apply placeholder-gray-400;
+}
+
+.formik-error {
+  @apply text-red-500 font-bold mt-1;
+}
+
+
 /*-------------------------------*/
 
 body {

@@ -15,8 +15,9 @@ export default function NavItem({ name, active, setCurrItem }) {
       key={name}
       offset="60px"
       className={navItemStyle}
+      onClick={() => setCurrItem(name)}
     >
-      <span onClick={() => setCurrItem(name)}>{name}</span>
+      <span>{name}</span>
     </AnchorLink>
   );
 }
