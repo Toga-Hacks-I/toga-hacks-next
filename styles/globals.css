@@ -55,7 +55,7 @@ h6,
 }
 
 *::selection {
-  background-color: #d10f1688;
+  background-color: #d10f1669;
 }
 
 button,
@@ -84,11 +84,11 @@ button.active.focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #a80c12;
+  background: #b91c21;
   transition: all 0.55s ease;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b91c21;
+  background: #c92128;
 }

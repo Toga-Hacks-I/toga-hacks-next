@@ -41,20 +41,20 @@ export default function About() {
               </p>
             </div>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-              <div className="rounded-md shadow">
+              <div className="rounded-md">
                 <AnchorLink
                   offset="60px"
                   href="#schedule"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-togahacks-primary-main hover:bg-togahacks-primary-darker md:py-4 md:text-lg md:px-10 trans-300"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-togahacks-secondary-bright hover:bg-togahacks-secondary-main md:py-4 md:text-lg md:px-10 trans-300"
                 >
                   View Schedule
                 </AnchorLink>
               </div>
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+              <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
                 <AnchorLink
                   offset="60px"
                   href="#faq"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-togahacks-primary-main bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 trans-300"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-togahacks-secondary-main bg-gray-200 hover:bg-gray-300 md:py-4 md:text-lg md:px-10 trans-300"
                 >
                   View FAQ
                 </AnchorLink>
