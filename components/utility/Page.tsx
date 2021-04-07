@@ -16,6 +16,7 @@ export default function Page({ title, desc, children }: PageProps) {
         <meta name="og:title" property="og:title" content={title} />
         <meta name="og:description" property="og:description" content={desc} />
         <meta property="og:site_name" content={title} />
+        <meta property="og:image" content="/opengraph.jpg" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={desc} />
