@@ -13,7 +13,7 @@ export default function FAQ() {
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
             {questions.map(({ q, a }) => (
               <div key={q}>
-                <dt className="text-lg leading-6 font-medium text-white">
+                <dt className="text-lg leading-6 font-semibold text-white">
                   {q}
                 </dt>
                 <dd className="mt-2 text-base text-red-200">{a}</dd>
