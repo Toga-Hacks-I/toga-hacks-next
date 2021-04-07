@@ -14,18 +14,17 @@ export default function Footer() {
           <div className="px-5 py-2">
             <AnchorLink
               href="#hero"
-              offset="69.69px"
+              offset="60px"
               className="text-base text-gray-500 hover:text-gray-900"
             >
               Home
             </AnchorLink>
           </div>
           {items.map((item) => (
-            <div className="px-5 py-2">
+            <div className="px-5 py-2" key={item}>
               <AnchorLink
                 href={"#" + item.toLowerCase()}
-                key={item}
-                offset="69.69px"
+                offset="60px"
                 className="text-base text-gray-500 hover:text-gray-900"
               >
                 {item}

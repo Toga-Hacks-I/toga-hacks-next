@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../components/About";
 import Page from "../components/utility/Page";
 import Hero from "./../components/Hero";
 
@@ -9,6 +10,7 @@ export default function Home() {
       desc="Exploring economics. Empowering leaders. Official page for the Youth Economics Intitiative (YEI)."
     >
       <Hero />
+      <About />
     </Page>
   );
 }

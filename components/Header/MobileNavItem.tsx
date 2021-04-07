@@ -14,7 +14,7 @@ export default function MobileNavItem({ name, active, setCurrItem }) {
     <AnchorLink
       href={"#" + name.toLowerCase()}
       key={name}
-      offset="69.69px"
+      offset="60px"
       className={navItemStyle}
     >
       <span onClick={() => setCurrItem(name)}>{name}</span>

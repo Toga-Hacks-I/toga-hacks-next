@@ -35,13 +35,14 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <AnchorLink
             href="#hero"
-            offset="69.69px"
+            offset="60px"
             className="flex-shrink-0 flex items-center"
           >
             <img
               className="block h-9 w-auto"
               src="/img/logos/logo.png"
               alt="toga hacks logo"
+              onClick={() => setCurrItem("Home")}
             />
           </AnchorLink>
           <div className="flex">

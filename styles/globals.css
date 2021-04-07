@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.blue-link {
+  @apply text-togahacks-secondary-bright hover:text-togahacks-secondary-main font-semibold;
+}
+
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
