@@ -13,7 +13,7 @@ export default function TeamMember({
   linkedin,
 }: TeamMemberProps) {
   return (
-    <div className="md:w-1/2 py-6 lg:w-1/3 xl:w-1/4 p-1">
+    <div className="mx-auto sm:w-1/2 md:w-1/3 py-6 lg:w-1/4 p-1">
       <div className="space-y-6">
         <img
           className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 bg-togahacks-secondary-main"

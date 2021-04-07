@@ -52,7 +52,7 @@ export default function Team() {
               lectus sit pretium egestas vel mattis neque.
             </p> */}
           </div>
-          <ul className="mx-auto flex md:flex-wrap align-middle justify-center flex-col md:flex-row lg:max-w-7xl">
+          <ul className="mx-auto flex sm:flex-wrap align-middle justify-center flex-col sm:flex-row lg:max-w-7xl">
             {advisors.map((member: any) => {
               let key = member.name.replace(/[\W_]+/g, "-").toLowerCase();
               return (
