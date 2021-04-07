@@ -6,7 +6,7 @@ const teamMembers = [
   },
   {
     name: "Mason Wang",
-    position: "Executive Director and Webmaster",
+    position: "Executive Director, Webmaster",
     github: "https://github.com/MasonWang025",
     linkedin: "https://www.linkedin.com/in/mason-wang/",
   },

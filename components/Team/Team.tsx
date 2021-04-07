@@ -2,30 +2,31 @@ import React from "react";
 import TeamMember from "./TeamMember";
 
 import teamMembers from "../../data/team";
+import advisors from './../../data/advisors';
 
-export default function TeamMemberGrid() {
+export default function Team() {
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-14 mb-2">
+    <div className="bg-gray-50" id="team">
+      <div className="max-w-7xl mx-auto py-16 px-4 text-center sm:px-6 lg:px-8 lg:py-20 mb-2">
         <div className="space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl -mb-4">
-              Meet our Team
+            <h2 className="text-3xl font-extrabold text-togahacks-secondary-bright tracking-tight sm:text-4xl -mb-4">
+              Our Team
             </h2>
             {/* <p className="text-xl text-gray-500">
               Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet
               lectus sit pretium egestas vel mattis neque.
             </p> */}
           </div>
-          <ul className="mx-auto justify-center flex flex-wrap flex-col sm:flex-row">
-            {teamMembers.map((member) => {
+          <ul className="mx-auto flex md:flex-wrap align-middle justify-center flex-col md:flex-row lg:max-w-7xl">
+            {teamMembers.map((member: any) => {
               let key = member.name.replace(/[\W_]+/g, "-").toLowerCase();
               return (
                 <TeamMember
                   key={key}
                   name={member.name}
                   position={member.position}
-                  imgSrc="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                  imgSrc={`/img/team/${key}.jpg`}
                   email={
                     member.email
                       ? member.email
@@ -33,6 +34,33 @@ export default function TeamMemberGrid() {
                           .split(" ")[0]
                           .toLowerCase()}@togahacks.org`
                   }
+                  github={member.github}
+                  linkedin={member.linkedin}
+                />
+              );
+            })}
+          </ul>
+        </div>
+
+        <div className="space-y-12 pt-12">
+          <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+            <h2 className="text-3xl font-extrabold text-togahacks-secondary-bright tracking-tight sm:text-4xl -mb-4">
+              Our Advisors
+            </h2>
+            {/* <p className="text-xl text-gray-500">
+              Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet
+              lectus sit pretium egestas vel mattis neque.
+            </p> */}
+          </div>
+          <ul className="mx-auto flex md:flex-wrap align-middle justify-center flex-col md:flex-row lg:max-w-7xl">
+            {advisors.map((member: any) => {
+              let key = member.name.replace(/[\W_]+/g, "-").toLowerCase();
+              return (
+                <TeamMember
+                  key={key}
+                  name={member.name}
+                  position={member.position}
+                  imgSrc={`/img/team/advisors/${key}.jpg`}
                   github={member.github}
                   linkedin={member.linkedin}
                 />
