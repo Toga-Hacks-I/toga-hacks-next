@@ -35,7 +35,7 @@ export default function About() {
               </p>
               <p>
                 <i>
-                  Toga Hacks I is curreently postponed due to COVID-19. Stay
+                  Toga Hacks I is currently postponed due to COVID-19. Stay
                   tuned for updates!
                 </i>
               </p>
