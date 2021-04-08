@@ -25,7 +25,7 @@ const questions = [
   {
     q: "What should I bring?",
     a:
-      "A laptop and a charger is all that you need. A sleeping bag is recommended (if you plan to sleep).",
+      "A laptop and a charger is all that you need. A sleeping bag is recommended (if you plan to sleep 😉).",
   },
   {
     q: "How do I form a team?",
