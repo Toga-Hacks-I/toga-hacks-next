@@ -22,6 +22,42 @@ const teamMembers = [
     github: "https://www.github.com/SwiftWinds",
     linkedin: "https://www.linkedin.com/in/mateo-wang/",
   },
+  // {
+  //   name: "Stuti Agarwal",
+  //   position: "Operations Director",
+  //   // github: "https://www.github.com/SwiftWinds",
+  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  // },
+  // {
+  //   name: "Cheryl Wu",
+  //   position: "Sponsorships Director",
+  //   // github: "https://www.github.com/SwiftWinds",
+  //   linkedin: "https://www.linkedin.com/in/cheryl-wu-ba12801b1/",
+  // },
+  // {
+  //   name: "Nikhil Mathihalli",
+  //   position: "Operations",
+  //   github: "https://www.github.com/rekt4",
+  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  // },
+  // {
+  //   name: "Suraj Mehrotra",
+  //   position: "Operations",
+  //   github: "https://github.com/smart-hacker",
+  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  // },
+  // {
+  //   name: "Jonny Luo",
+  //   position: "Sponsorships",
+  //   // github: "https://www.github.com/SwiftWinds",
+  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  // },
+  // {
+  //   name: "Andrew Choi",
+  //   position: "Sponsorships, Outreach",
+  //   // github: "https://www.github.com/SwiftWinds",
+  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  // },
 ];
 
 export default teamMembers;

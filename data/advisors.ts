@@ -13,7 +13,7 @@ const advisors = [
   },
   {
     name: "Sidney Hough",
-    position: "Emeritus Sponsorship Director",
+    position: "Emeritus Sponsorships Director",
     github: "https://github.com/sidsquid",
     linkedin: "https://www.linkedin.com/in/sidney-hough-75593417a/",
   },

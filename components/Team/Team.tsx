@@ -41,9 +41,9 @@ export default function Team() {
             })}
           </ul>
         </div>
-        <p className="mt-2 text-gray-600">
+        {/* <p className="mt-2 text-gray-600">
           <i>This section is currently being updated.</i>
-        </p>
+        </p> */}
 
         <div className="space-y-12 pt-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
