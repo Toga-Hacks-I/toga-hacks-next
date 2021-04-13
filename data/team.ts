@@ -49,8 +49,8 @@ const teamMembers = [
   {
     name: "Jonny Luo",
     position: "Sponsorships",
-    // github: "https://www.github.com/SwiftWinds",
-    // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+    github: "https://github.com/ImJonnyL",
+    linkedin: "https://www.linkedin.com/in/jonny-luo-36a91020b/",
   },
   {
     name: "Andrew Choi",
