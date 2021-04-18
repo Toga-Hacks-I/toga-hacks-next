@@ -40,12 +40,12 @@ const teamMembers = [
     github: "https://www.github.com/rekt4",
     // linkedin: "https://www.linkedin.com/in/mateo-wang/",
   },
-  // {
-  //   name: "Suraj Mehrotra",
-  //   position: "Operations",
-  //   github: "https://github.com/smart-hacker",
-  //   // linkedin: "https://www.linkedin.com/in/mateo-wang/",
-  // },
+  {
+    name: "Suraj Mehrotra",
+    position: "Operations",
+    github: "https://github.com/smart-hacker",
+    // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+  },
   {
     name: "Jonny Luo",
     position: "Sponsorships",
