@@ -44,7 +44,7 @@ const teamMembers = [
     name: "Suraj Mehrotra",
     position: "Operations",
     github: "https://github.com/smart-hacker",
-    // linkedin: "https://www.linkedin.com/in/mateo-wang/",
+    linkedin: "https://www.linkedin.com/in/suraj-mehrotra-674b101ab/",
   },
   {
     name: "Jonny Luo",
