@@ -22,7 +22,7 @@ export default function Hero() {
                 Toga <span className="text-white">Hacks</span> I
               </h1>
               <div className="mt-3 text-2xl text-gray-300 sm:mt-5 lg:text-3xl">
-                Silicon Valley, CA. Coming soon in 2021.
+                Silicon Valley, CA. Coming soon in 2022.
               </div>
             </div>
           </div>
