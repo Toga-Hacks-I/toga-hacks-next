@@ -33,7 +33,6 @@ input {
   @apply text-red-500 font-bold mt-1;
 }
 
-
 /*-------------------------------*/
 
 body {
@@ -100,4 +99,10 @@ button.active.focus {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #c92128;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
